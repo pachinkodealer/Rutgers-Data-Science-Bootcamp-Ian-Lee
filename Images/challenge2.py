@@ -10,7 +10,7 @@ doane_votes = 0
 #initialize winner
 winner = None
 
-
+#reads the csv
 with open(election_csv) as csvfile:
     election_data_csv = csv.reader(csvfile, delimiter=",")
     
